@@ -1,0 +1,6 @@
+<view>
+<view>
+<image src="{{list.imgsrc}}" class="detail_img" mode="widthFix"></image>
+<view class="text">{{list.text}}</view>
+</view>
+</view>

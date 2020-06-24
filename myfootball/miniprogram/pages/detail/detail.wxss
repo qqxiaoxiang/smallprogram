@@ -1,0 +1,8 @@
+.text{
+  color:#aaa;
+  margin-top:5px;
+  padding:10px;
+}
+.detail_img{
+  width:100%;
+}

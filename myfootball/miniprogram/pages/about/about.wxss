@@ -1,0 +1,24 @@
+.out{
+  padding: 20rpx;
+}
+.v1{
+  padding:30rpx;
+  word-wrap: wrap;
+  word-break: break-all;
+  box-shadow: 10px 10px 5px #888888;
+  background-color:#eee;
+}
+.v1 text{
+  color:red;
+}
+.contain{
+  display:flex;
+  flex-wrap:wrap;
+}
+.chooseImage{
+  width:190rpx;
+  margin: 90rpx auto;
+}
+image{
+  width:100%;
+}

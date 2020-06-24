@@ -1,0 +1,52 @@
+{
+  "pages": [
+    
+    "pages/index/index",
+    "pages/qiux/qiux",
+    "pages/about/about",
+    "pages/tianqi/tianqi",
+    "pages/detail/detail"
+    
+    
+  ],
+ 
+  
+  "tabBar": {
+    "color": "#545454",
+    "selectedColor": "#15e49e",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "主页",
+      "iconPath": "images/sy.png",
+      "selectedIconPath": "images/sy_.png"
+    },
+    {
+      "pagePath": "pages/qiux/qiux",
+      "text": "球星",
+      "iconPath": "images/wd.png",
+      "selectedIconPath": "images/wd_.png"
+    },
+    {
+      "pagePath": "pages/about/about",
+      "text": "关于",
+      "iconPath": "images/wz.png",
+      "selectedIconPath": "images/wz_.png"
+    },{
+      "pagePath": "pages/tianqi/tianqi",
+      "text": "天气",
+      "iconPath": "images/tq.png",
+      "selectedIconPath": "images/tq.png"
+    }
+
+    ]
+  },
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "懒小祥",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

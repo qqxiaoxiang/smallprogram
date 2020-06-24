@@ -1,0 +1,6 @@
+<view class="out">
+<navigator wx:for="{{list}}" wx:key="index" url="../detail/detail?id={{item.id}}" class="nav">
+<image src="{{item.imgsrc}}" class="qximg"></image>
+</navigator>
+
+</view>

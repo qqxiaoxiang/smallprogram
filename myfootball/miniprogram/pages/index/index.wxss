@@ -1,0 +1,18 @@
+.item{
+  display: flex;
+  flex-direction: column;
+}
+.img{
+  width:100%;
+  height:200px;
+  
+}
+.wz{
+  padding:20rpx;
+  color:#555;
+  background-color:#ddd;
+  
+}
+swiper{
+  height:500px;
+}

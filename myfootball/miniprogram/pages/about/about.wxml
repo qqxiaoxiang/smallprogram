@@ -1,0 +1,20 @@
+<view class="out">
+<view class="v1">
+这是个人开发的关于足球的小程序。本着对足球的热爱也兼顾小程序的学习，编写了关于足球的主页，关于世界知名的球星页及其详细介绍页，关于此小程序的说明页。此小程序仅供娱乐学习使用，作者不负任何法律责任，如果侵害了他人利益，那我就改呗。
+这是网站版的介绍，网址：<text selectable='true'>https://qqxiaoxiang.github.io/bootstrap_football/ 或 http://lujiax.gitee.io/bootstrapfootball</text>
+</view>
+</view>
+<view class="contain">
+<view>上传预览</view>
+<view class="chooseImage" wx:for="{{images}}" wx:key="*this">
+<image src="{{item}}" mode="widthFix"></image>
+</view>
+</view>
+<button bindtap="chooseImage">选择图片</button>
+<button bindtap="tijiao">上传</button>
+
+<view class="contain">
+<view class="chooseImage" wx:for="{{imageUrl}}" wx:key="*this">
+<image src="{{item}}" mode="widthFix"></image>
+</view>
+</view>
